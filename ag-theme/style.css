@@ -1,0 +1,110 @@
+/* Theme Name: ag-theme
+Author: Ari Green
+Version: 1.0.0
+Description: Styling for theme */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background: #f3c3df;
+    color: #333;
+}
+
+.site-main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+article {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+
+.post-thumbnail-link img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.entry-title {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+}
+
+.entry-title a {
+    text-decoration: none;
+    color: #222;
+}
+
+.entry-title a:hover {
+    color: #aa0099;
+}
+
+
+.entry-meta {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.entry-summary {
+    font-size: 1rem;
+    color: #444;
+}
+
+.navigation,
+.nav-links {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.page-numbers {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 4px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    color: #333;
+    border-radius: 4px;
+}
+
+.page-numbers:hover {
+    background: #0073aa;
+    color: #fff;
+}
+
+.no-posts {
+    text-align: center;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 6px;
+}
+
+.no-posts h2 {
+    margin-bottom: 10px;
+}
