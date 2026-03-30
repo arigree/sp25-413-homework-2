@@ -1,0 +1,81 @@
+/*
+Theme Name: ag-theme-child
+Author: Ari Green
+Version: 1.0.0
+Template: ag-theme
+Description: Child theme for ag-theme
+*/
+
+body {
+  background: #ffffff;
+}
+
+.entry-title {
+  color: #3c6e71;
+}
+
+a {
+  color: #3c6e71;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 0.18em;
+}
+
+a:hover,
+a:focus {
+  color: #284b63;
+}
+
+.primary-navigation a:hover,
+.primary-navigation .current-menu-item > a,
+.primary-navigation .current_page_item > a {
+  background: rgba(29, 78, 216, 0.08);
+  color: #284b63;
+}
+
+
+.hero__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid rgba(29, 78, 216, 0.15);
+  border-radius: 999px;
+  background: rgba(29, 78, 216, 0.06);
+  color: #284b63;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.entry-kicker {
+  margin-bottom: 0.8rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color:  #284b63;
+}
+
+.post-card__title a:hover {
+  color:  #3c6e71;
+}
+
+.read-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.9rem;
+  font-weight: 700;
+  color:  #284b63;
+}
+
+.page-numbers.current,
+.page-numbers:hover,
+.nav-previous a:hover,
+.nav-next a:hover {
+  border-color: rgba(29, 78, 216, 0.25);
+  background: rgba(29, 78, 216, 0.08);
+  color:  #284b63;
+}
